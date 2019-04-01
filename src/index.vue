@@ -1,6 +1,17 @@
 <template>
-    <h1>hello world</h1>
+    <div>
+        <h1>hello world</h1>
+        <img src="./assets/img/logo.png"/>
+    </div>
 </template>
+
+<script>
+export default {
+    mounted() {
+        
+    },
+};
+</script>
 
 <style lang="scss">
 h1 {
